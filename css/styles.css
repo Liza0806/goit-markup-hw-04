@@ -430,7 +430,8 @@ section.advantages ul {
 
 .icon-customers {}
 
-.icon-customers:hover {
+.icon-customers:hover,
+.icon-customers:focus {
     border: 1px solid var(--blue);
     fill: var(--blue);
 }
@@ -496,7 +497,7 @@ section.advantages ul {
     color: var(--footer-text);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.e;
+    line-height: 1.5;
 }
 
 .footer-smtext {
@@ -511,8 +512,7 @@ section.advantages ul {
 }
 
 .div-sm-footer {
-    width: 208px;
-    height: 80px;
+ 
 }
 
 .logo-studio-footer {
@@ -529,6 +529,11 @@ section.advantages ul {
 .footer-main {
     display: flex;
     gap: 120px;
+}
+
+.div-sm-footer .persons-soc-link:hover,
+.div-sm-footer .persons-soc-link:focus {
+    background: var(--green);
 }
 
 /*-----button---*/
